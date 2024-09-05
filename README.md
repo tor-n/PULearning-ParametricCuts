@@ -1,6 +1,8 @@
-# PULearning-ParametricCuts
-**Positive-unlabeled Learning using Pairwise Similarities and Parametric Minimum Cuts**
-*Accepted, to appear in [KDIR 2024](https://kdir.scitevents.org/) *
+# Positive-unlabeled Learning using Pairwise Similarities and Parametric Minimum Cuts
+
+*with* [Dorit S. Hochbaum](https://hochbaum.ieor.berkeley.edu/)</br>
+*Accepted, to appear in* [KDIR 2024](https://kdir.scitevents.org/)
+***
 
 Positive-unlabeled (PU) learning is a binary classification problem where the labeled set contains only positive class samples. 
 
@@ -9,4 +11,4 @@ Most PU learning methods involve using a prior $\pi$ on the true fraction of pos
 Our PU learning method, called *2-HNC*, runs in two stages.
 Stage 1 identifies optimal data partitions for all tradeoff values, using only positive labeled samples.
 Stage 2 first ranks unlabeled samples by their likelihood of being negative, according to the sequential order of partitions from stage 1, and then uses the likely-negative along with positive samples to run HNC.
-Among all generated partitions in both stages, the partition whose positive fraction is closest to the prior $\pi$ is selected. An experimental study demonstrates that {\em 2-HNC} is highly competitive compared to state-of-the-art methods.
+Among all generated partitions in both stages, the partition whose positive fraction is closest to the prior $\pi$ is selected. An experimental study demonstrates that *2-HNC* is highly competitive compared to state-of-the-art methods.
