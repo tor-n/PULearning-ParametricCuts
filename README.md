@@ -26,3 +26,5 @@ Example:
 To run the classifier on *mushroom* data and set the number of positive labeled samples to be 400, using the random seed of 0 to split the samples into labeled/unlabeled sets and the random seed of 1 in Stage 2 of the method to select reliable negative samples, run the following line:
 
 python3 HNCPU.py -d mushroom -l 400 -S 0 -M 1;
+***
+![Results Tables](https://raw.githubusercontent.com/tor-n/PULearning-ParametricCuts/master/hncpu-results.png)
