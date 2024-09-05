@@ -1,3 +1,6 @@
+###########################################################################
+# This code is from https://github.com/jonathanwilton/PUExtraTrees
+###########################################################################
 # PU ExtraTrees - A Random Forest Classifier for PU Learning
 from tree import PUExtraTree
 from joblib import Parallel, delayed
