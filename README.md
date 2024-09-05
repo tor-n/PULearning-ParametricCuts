@@ -12,3 +12,11 @@ Our PU learning method, called *2-HNC*, runs in two stages.
 Stage 1 identifies optimal data partitions for all tradeoff values, using only positive labeled samples.
 Stage 2 first ranks unlabeled samples by their likelihood of being negative, according to the sequential order of partitions from stage 1, and then uses the likely-negative along with positive samples to run HNC.
 Among all generated partitions in both stages, the partition whose positive fraction is closest to the prior $\pi$ is selected. An experimental study demonstrates that *2-HNC* is highly competitive compared to state-of-the-art methods.
+
+***
+
+Example:
+
+To run the classifier on *mushroom* data and set the number of positive labeled samples to be 400, using the random seed of 0 to split the samples into labeled/unlabeled sets and the random seed of 1 in Stage 2 of the method to select reliable negative samples, run the following line:
+
+python3 HNCPU.py -d mushroom -l 400 -S 0 -M 1;
