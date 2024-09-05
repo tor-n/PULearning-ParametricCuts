@@ -1,3 +1,6 @@
+###########################################################################
+# This code is from https://github.com/jonathanwilton/PUExtraTrees
+###########################################################################
 # PU ExtraTree - A DT Classifier for PU Learning
 import numpy as np
 import scipy.stats
