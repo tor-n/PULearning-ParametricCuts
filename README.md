@@ -14,6 +14,9 @@ Stage 2 first ranks unlabeled samples by their likelihood of being negative, acc
 Among all generated partitions in both stages, the partition whose positive fraction is closest to the prior $\pi$ is selected. An experimental study demonstrates that *2-HNC* is highly competitive compared to state-of-the-art methods.
 
 ***
+The implementation of the parametric cut solver used in the original work can be found [here](https://riot.ieor.berkeley.edu/Applications/Pseudoflow/parametric.html).
+The updated and faster implementation of the parametric cut solver (*bareHPF.c* in this directory) was developed recently by Alexander Irribarra Cortés (airribarra at inf.udec.cl) and Roberto Javier Asín Achá (roberto.asin at usm.cl).
+***
 
 Example:
 
